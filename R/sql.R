@@ -21,8 +21,8 @@ sql <- function(query, tolower=TRUE, dots=TRUE, encoding="unknown",
     return(query)
 
   ## 3  Run query
-  output <- dbGetQuery(dbConnect(dbDriver("Oracle"),...), query)
-  if(class(output) != "data.frame")
+  output <- dbGetQuery(dbConnect(dbDriver("Oracle"), ...), query)
+  if(!inherits(output, "data.frame"))
     return(output)
 
   ## 4  Format output
