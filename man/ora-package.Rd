@@ -23,10 +23,6 @@
   }
 }
 \author{Arni Magnusson.}
-\references{
-  The official Oracle manuals are available at
-  \url{http://www.oracle.com/technetwork/indexes/documentation/}.
-}
 \seealso{
   The functions that do the actual work are described in the \pkg{DBI}
   and \pkg{ROracle} packages.
