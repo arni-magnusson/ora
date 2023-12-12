@@ -5,7 +5,7 @@
 ora
 ===
 
-Easy-to-use functions to explore Oracle databases and import data into R. User
+Basic functions to explore Oracle databases and import data into R. User
 interface for the ROracle package.
 
 Installation

@@ -4,8 +4,8 @@
 \docType{package}
 \title{Convenient Tools for Working with Oracle Databases}
 \description{
-  Easy-to-use functions to explore Oracle databases and import data into
-  \R. User interface for the \pkg{ROracle} package.
+  Basic functions to explore Oracle databases and import data into \R.
+  User interface for the \pkg{ROracle} package.
 }
 \details{
   \emph{Explore database:}

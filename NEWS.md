@@ -1,3 +1,10 @@
+# ora 2.0.2 (2023-12-12)
+
+* Maintenance release.
+
+
+
+
 # ora 2.0-1 (2014-04-10)
 
 * desc() shows LAST_ANALYZED date (shown below table) as a string, not integer.
