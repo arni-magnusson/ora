@@ -28,5 +28,5 @@ sql <- function(query, tolower=TRUE, dots=TRUE, encoding="unknown", useBytes=TRU
   if(dots)
     names(output) <- chartr("_", ".", names(output))
 
-  return(output)
+  output
 }
