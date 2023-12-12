@@ -20,9 +20,9 @@ desc <- function(table, tolower=TRUE, dots=FALSE, ...)
   splitname <- toupper(unlist(strsplit(table, "\\.")))
   select.from <- "SELECT num_rows,last_analyzed FROM all_tables"
   if(length(splitname) == 1)
-    where <- paste("WHERE table_name='", splitname, "'", sep="")
+    where <- paste0("WHERE table_name='", splitname, "'")
   else
-    where <- paste("WHERE owner='", splitname[1], "' AND table_name='", splitname[2], "'", sep="")
+    where <- paste0("WHERE owner='", splitname[1], "' AND table_name='", splitname[2], "'")
   query <- paste(select.from, where)
   rows.date <- dbGetQuery(dbConnect(dbDriver("Oracle"),...), query)
   attr(output, "rows") <- if(nrow(rows.date)==1) rows.date$NUM_ROWS else as.numeric(NA)

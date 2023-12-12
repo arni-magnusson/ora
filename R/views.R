@@ -2,8 +2,8 @@ views <- function(owner="%", view="%", tolower=TRUE, ...)
 {
   ## 1  Prepare query
   select.from <- "SELECT owner,view_name FROM all_views"
-  where <- paste("WHERE owner LIKE '", toupper(owner), "' ESCAPE '\\' ",
-                 "AND view_name LIKE '", toupper(view), "' ESCAPE '\\'", sep="")
+  where <- paste0("WHERE owner LIKE '", toupper(owner), "' ESCAPE '\\' ",
+                  "AND view_name LIKE '", toupper(view), "' ESCAPE '\\'")
   query <- paste(select.from, where)
 
   ## 2  Run query
