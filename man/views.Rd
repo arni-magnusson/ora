@@ -62,6 +62,3 @@ views(,"all\\\\_\%")
 
 }
 }
-% Programming
-\keyword{database}
-\keyword{utilities}

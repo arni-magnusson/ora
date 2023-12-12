@@ -70,6 +70,3 @@ tables(,"\%\\\\_map")
 
 }
 }
-% Programming
-\keyword{database}
-\keyword{utilities}

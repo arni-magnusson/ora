@@ -59,8 +59,3 @@ desc("dual", tolower=FALSE)
 desc("all_users")
 }
 }
-% Basics
-\keyword{classes}
-% Programming
-\keyword{database}
-\keyword{utilities}

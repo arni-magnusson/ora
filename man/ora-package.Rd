@@ -31,6 +31,3 @@
   The functions that do the actual work are described in the \pkg{DBI}
   and \pkg{ROracle} packages.
 }
-% Programming
-\keyword{database}
-\keyword{utilities}

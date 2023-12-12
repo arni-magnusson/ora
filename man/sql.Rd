@@ -89,6 +89,3 @@ sql(paste0("SELECT username,created FROM all_users WHERE rownum<=",5+5),
 
 }
 }
-% Programming
-\keyword{database}
-\keyword{utilities}
