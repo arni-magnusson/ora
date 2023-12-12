@@ -1,7 +1,8 @@
 tables <- function(owner="%", table="%", space="%", tolower=TRUE, ...)
 {
   ## 1  Prepare query
-  select.from <- "SELECT owner,table_name,tablespace_name,num_rows,last_analyzed FROM all_tables"
+  select.from <- paste0("SELECT owner,table_name,tablespace_name,num_rows,",
+                        "last_analyzed FROM all_tables")
   where <- paste0("WHERE owner LIKE '", toupper(owner), "' ESCAPE '\\' ",
                   "AND table_name LIKE '", toupper(table), "' ESCAPE '\\' ",
                   "AND tablespace_name LIKE '", toupper(space), "' ESCAPE '\\'")
