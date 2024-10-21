@@ -45,8 +45,8 @@ sql(query, tolower=TRUE, dots=TRUE, encoding="unknown", useBytes=TRUE,
 
   The \code{\dots} argument can be used to set \code{username},
   \code{password}, and/or \code{dbname} (see \code{\link{dbConnect}}).
-  Abbrevations like \code{user} and \samp{pass} are allowed. The default
-  database name is determined by the environment variable
+  Abbreviations like \code{user} and \code{pass} are allowed. The
+  default database name is determined by the environment variable
   \env{ORACLE_SID}, which can be redefined within an \R session using
   \code{Sys.setenv(ORACLE_SID="foo")}.
 }
