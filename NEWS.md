@@ -1,4 +1,4 @@
-# ora 2.0.4 (2024-10-21)
+# ora 2.0.2 (2024-10-21)
 
 * Maintenance release.
 

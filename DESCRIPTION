@@ -1,5 +1,5 @@
 Package: ora
-Version: 2.0.4
+Version: 2.0.2
 Date: 2024-10-21
 Title: Convenient Tools for Working with Oracle Databases
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="thisisarni@gmail.com"))
